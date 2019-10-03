@@ -1,0 +1,16 @@
+############################################################################
+#                                                                          #
+#                            COMMAND ALIASES                               #
+#          								                                                 #
+############################################################################
+
+alias reboot='sudo /sbin/reboot'
+alias poweroff='sudo /sbin/poweroff'
+alias halt='sudo /sbin/halt'
+alias shutdown='sudo /sbin/shutdown'
+alias root="sudo su"
+alias c="clear"
+alias bashrc="nano ~/.bashrc"
+alias wg="wordgrinder"
+alias source="source ~/.bashrc"
+alias speed="speedtest-cli"
