@@ -1,0 +1,10 @@
+#############################################################################
+#                                                                           #
+#                               URL ALIASES                                 #
+#                                                                           #
+#############################################################################
+
+alias nytimes="elinks nytimes.com"
+alias mcsweeneys="elinks mcsweeneys.net"
+alias nybooks="elinks nybooks.com"
+alias fedmag="elinks fedoraproject.org"
