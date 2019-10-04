@@ -25,4 +25,5 @@ alias install="sudo dnf install"  ## Fedora
 alias install="sudo yum install"  ## Centos 7
 alias h='history'
 alias ls=' ls -lhf --time-style=long-iso --color=auto'
+alias extip='curl icanhazip.com'
 
