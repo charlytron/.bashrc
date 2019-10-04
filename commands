@@ -11,6 +11,18 @@ alias shutdown='sudo /sbin/shutdown'
 alias root="sudo su"
 alias c="clear"
 alias bashrc="nano ~/.bashrc"
-alias wg="wordgrinder"
+alias wg="wordgrinder"   ##requires wordgrinder   
 alias source="source ~/.bashrc"
 alias speed="speedtest-cli"
+## local weather
+alias weather="curl wttr.in" 
+## 5 processes using the most memory
+alias cpu5='ps auxf | sort -nr -k 3 | head -5'  
+alias mem5='ps auxf | sort -nr -k 4 | head -5'  
+## follow this by the pkg to be installed. Comment as nec.
+alias install="sudo pacman -S"   ## Arch Linux
+alias install="sudo dnf install"  ## Fedora
+alias install="sudo yum install"  ## Centos 7
+alias h='history'
+alias ls=' ls -lhf --time-style=long-iso --color=auto'
+
