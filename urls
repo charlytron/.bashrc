@@ -4,7 +4,6 @@
 #                                                                           #
 #############################################################################
 
-alias nytimes="elinks nytimes.com"
-alias mcsweeneys="elinks mcsweeneys.net"
-alias nybooks="elinks nybooks.com"
 alias fedmag="elinks fedoraproject.org"
+alias ram8="elinks https://www.linuxatemyram.com"
+alias aw="elinks https://wiki.archlinux.org/"
