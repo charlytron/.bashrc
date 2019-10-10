@@ -1,2 +1,10 @@
 # user, host and current directory in alternating red and blue, follwed by $ prompt on next line
+
 PS1=\[\e[36;40m\]\u\[\e[m\]\[\e[31m\]\h\[\e[m\]\[\e[31;46m\]\W\[\e[m\]\[\e[37;40m\]\\n\$\[\e[m\]"
+
+# It's bad form to do this above.  Break apart the whole into segments to make things readable:
+
+PS1="$(tput setaf 196)[\@]";            #orange
+PS1+="$(tput setaf 123) \W ==> ";       #light blue
+PS1+="$(tput sgr0)";                    #reverts back to the default colors of the terminal
+export PS1;
